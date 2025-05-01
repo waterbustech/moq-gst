@@ -4,7 +4,7 @@ mod sink;
 mod source;
 
 pub fn plugin_init(plugin: &gst::Plugin) -> Result<(), glib::BoolError> {
-	env_logger::init();
+	// env_logger::init();
 	sink::register(plugin)?;
 	source::register(plugin)?;
 

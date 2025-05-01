@@ -255,7 +255,7 @@ impl MoqSrc {
 			});
 		}
 
-		for audio in catalog.audio {}
+		// for audio in catalog.audio {}
 
 		// We downloaded the catalog and created all the pads.
 		self.obj().no_more_pads();
